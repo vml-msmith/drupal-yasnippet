@@ -99,4 +99,16 @@ to promote adding documentation to everything you write.
 
 ## List of Snippets
 
-<Comming Soon!>
+* ````drupal_form```` Creates form code suitable for drupal_get_form, including
+validator and submit functions.
+* ````hook```` A generic HOOK_ function ready for your input.
+* ````hook_block```` HOOK_block_info() and HOOK_block_view.
+* ````hook_form_alter````
+* ````hook_init```` Includes a warning message not to overuse HOOK_init().
+* ````hook_menu````
+* ````hook_menu_alter````
+* ````hook_node_view````
+* ````hook_theme````
+* ````todo```` Add a simple ````PHP \\ TODO (your_user_name): ````
+* ````watchdog```` The last tab item, severity, has a selectable list of all
+predefined Drupal watchdog severity constants.

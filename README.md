@@ -43,7 +43,25 @@ The default template will be spit out for you ready for input.
 
 These snippets try to follow Drupal's coding standards where appropriate.
 Every snippet that creates a function will be prepended with /** **/
-documentation, for example. hook_form wil
+documentation, for example.````hook_node_view```` will spit this out...
+
+````PHP
+/**
+ * Implements hook_node_view().
+ *
+ * TODO (msmith): Add documentation.
+ */
+function store_node_view($node, $view_mode, $langcode) {
+
+}
+````
+
+Notice the ````Implements hook_node_view().```` before the actual function
+definition.
+
+Also notice that the function name is ````store_node_view````. This is because
+I invoked hook_node_view from inside a file named store.module. The snippets
+are smart enough to detect your module name and fill that part in for you.
 
 <More Comming Soon!>
 

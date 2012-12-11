@@ -109,6 +109,6 @@ validator and submit functions.
 * ````hook_menu_alter````
 * ````hook_node_view````
 * ````hook_theme````
-* ````todo```` Add a simple ````PHP \\ TODO (your_user_name): ````
+* ````todo```` Add a simple ````\\ TODO (your_user_name): ````
 * ````watchdog```` The last tab item, severity, has a selectable list of all
 predefined Drupal watchdog severity constants.

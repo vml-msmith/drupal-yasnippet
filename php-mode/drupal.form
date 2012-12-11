@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: Create a new form
-# key: drupal.form
+# key: drupal_form
 # --
 /**
  * TODO (`(getenv "USER")`): Add documentation explaining this form.

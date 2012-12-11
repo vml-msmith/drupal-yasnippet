@@ -99,6 +99,10 @@ to promote adding documentation to everything you write.
 
 ## List of Snippets
 
+This is a quick list of the snippets available. They are all demonstrated in the
+[PHP Example File] (https://github.com/vml-msmith/drupal-yasnippet/blob/master/examples/php.php)
+unedited as they appear in the editor.
+
 * ````drupal_form```` Creates form code suitable for drupal_get_form, including
 validator and submit functions.
 * ````hook```` A generic HOOK_ function ready for your input.

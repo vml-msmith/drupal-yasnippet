@@ -6,8 +6,7 @@
  * TODO (`(getenv "USER")`): Add documentation explaining this form.
  */
 function `(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`_${1:FORM_NAME}_form($form, &$form_state) {
-  $0
-  $form['submit'] = array(
+$0  $form['submit'] = array(
     '#type' => 'submit',
     '#value' => t('Save'),
   );

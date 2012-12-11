@@ -93,9 +93,9 @@ Also notice that the function name is ````store_node_view````. This is because
 I invoked hook_node_view from inside a file named store.module. The snippets
 are smart enough to detect your module name and fill that part in for you.
 
-
-
-<More Comming Soon!>
+One last thing. Most methods and hooks in this bundle will add a
+''''TODO (your_user_name): Add documentation'''' somewhere. This is in an effort
+to promote adding documentation to everything you write.
 
 ## List of Snippets
 

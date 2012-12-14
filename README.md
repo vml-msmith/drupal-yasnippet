@@ -33,7 +33,7 @@ documentation and TODO reminders to add more.
 # Installation
 
 Follow the instructions to install YASnippet:
-https://github.com/capitaomorte/yasnippet#intro
+https://github.com/capitaomorte/yasnippet#installation
 
 Clone this repository into your ~/.emacs.d directory:
 ````

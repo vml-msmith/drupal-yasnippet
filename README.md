@@ -113,6 +113,7 @@ validator and submit functions.
 * ````hook_menu_alter````
 * ````hook_node_delete````
 * ````hook_node_insert````
+* ````hook_node_presave````
 * ````hook_node_update````
 * ````hook_node_view````
 * ````hook_theme````

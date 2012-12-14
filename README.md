@@ -8,7 +8,7 @@ SASS use. They are only bits that make your life in Drupal eaiser.
 ## Why would I want snippets for Drupal?
 
 I'm not a fan of snippets for trivial bits of code. I forget all the time to
-use for<TAB> to make a for loop for instance. But everytime I need to implement
+use ````for<TAB>```` to make a ````for()```` loop. But everytime I need to implement
 a hook, I find myself crusing over to Drupal.org to look up the hook
 definition, what it returns and how to use it. These snippets take care of doing
 most of that for me.

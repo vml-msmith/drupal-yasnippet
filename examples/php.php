@@ -55,8 +55,8 @@ function php_block_info() {
   $blocks = array();
 
   $blocks[''] = array(
-                      'info' => t(''),
-                      );
+    'info' => t(''),
+  );
 
   return $blocks;
 }

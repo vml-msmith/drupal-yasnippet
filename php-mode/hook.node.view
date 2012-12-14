@@ -8,5 +8,5 @@
  * TODO (`(getenv "USER")`): Add documentation.
  */
 function `(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`_node_view($node, $view_mode, $langcode) {
-
+$0
 }

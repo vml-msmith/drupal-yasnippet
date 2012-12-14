@@ -111,6 +111,9 @@ validator and submit functions.
 * ````hook_init```` Includes a warning message not to overuse HOOK_init().
 * ````hook_menu````
 * ````hook_menu_alter````
+* ````hook_node_delete````
+* ````hook_node_insert````
+* ````hook_node_update````
 * ````hook_node_view````
 * ````hook_theme````
 * ````todo```` Add a simple ````\\ TODO (your_user_name): ````

@@ -164,6 +164,51 @@ function php_menu_alter(&$items) {
 
 
 // -----------------------------------------------------------------------------
+// hook_node_delete<tab>
+// -----------------------------------------------------------------------------
+
+/**
+ * Implements hook_node_delete().
+ *
+ * TODO (msmith): Add documentation.
+ */
+function php_node_delete($node) {
+
+}
+
+
+// -----------------------------------------------------------------------------
+// hook_node_insert<tab>
+// -----------------------------------------------------------------------------
+
+/**
+ * Implements hook_node_insert().
+ *
+ * TODO (msmith): Add documentation.
+ */
+function php_node_insert($node) {
+
+}
+
+
+// -----------------------------------------------------------------------------
+// hook_node_update<tab>
+// -----------------------------------------------------------------------------
+
+/**
+ * Implements hook_node_update().
+ *
+ * NOTE: Changes to the node are not saved in the database yet. Updates will not
+ *       be written until node_save completes (after this function returns).
+ *
+ * TODO (msmith): Add documentation.
+ */
+function php_node_update($node) {
+
+}
+
+
+// -----------------------------------------------------------------------------
 // hook_node_view<tab>
 // -----------------------------------------------------------------------------
 

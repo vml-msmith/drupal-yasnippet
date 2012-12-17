@@ -7,7 +7,7 @@
  *
  * TODO (`(getenv "USER")`): Add method documentation explaining why we hook.
  */
-function `(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`_form_${1:FORM_ID}_alter(&$form, &$form_stte, $form_id) {
+function `(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`_form_${1:FORM_ID}_alter(&$form, &$form_state, $form_id) {
   $0
   return $form;
 }

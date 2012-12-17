@@ -169,7 +169,7 @@ function php_form_alter(&$form, &$form_state, $form_id) {
  *
  * TODO (msmith): Add method documentation explaining why we hook.
  */
-function php_form_FORM_ID_alter(&$form, &$form_stte, $form_id) {
+function php_form_FORM_ID_alter(&$form, &$form_state, $form_id) {
 
   return $form;
 }

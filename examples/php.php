@@ -74,6 +74,75 @@ function php_block_view($delta = '') {
   }
 }
 
+// -----------------------------------------------------------------------------
+// hook_comment_delete<tab>
+// -----------------------------------------------------------------------------
+
+/**
+ * Implements hook_comment_delete().
+ *
+ * TODO (msmith): Add documentation.
+ */
+function php_comment_delete($comment) {
+
+}
+
+
+// -----------------------------------------------------------------------------
+// hook_comment_insert<tab>
+// -----------------------------------------------------------------------------
+
+/**
+ * Implements hook_comment_insert().
+ *
+ * TODO (msmith): Add documentation.
+ */
+function php_comment_insert($comment) {
+
+}
+
+
+// -----------------------------------------------------------------------------
+// hook_comment_load<tab>
+// -----------------------------------------------------------------------------
+
+/**
+ * Implements hook_comment_load().
+ *
+ * TODO (msmith): Add documentation.
+ */
+function php_comment_load($comments) {
+
+}
+
+
+// -----------------------------------------------------------------------------
+// hook_comment_update<tab>
+// -----------------------------------------------------------------------------
+
+/**
+ * Implements hook_comment_update().
+ *
+ * TODO (msmith): Add documentation.
+ */
+function php_comment_update($comment) {
+
+}
+
+
+// -----------------------------------------------------------------------------
+// hook_comment_view<tab>
+// -----------------------------------------------------------------------------
+
+/**
+ * Implements hook_comment_view().
+ *
+ * TODO (msmith): Add documentation.
+ */
+function php_comment_view($comment, $view_mode, $langcode) {
+
+}
+
 
 // -----------------------------------------------------------------------------
 // hook_form_alter<tab>
